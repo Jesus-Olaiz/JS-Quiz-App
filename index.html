@@ -6,31 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Quiz</title>
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <div class="quizBox" id="quizBox">
+        <h1>JavaScript Quiz</h1>
+        <button id="start" class="start">Start</button>
 
-    
-        <h3 id="question" class="question">Inside which HTML element do we put the JavaScript?</h3>
+        <h3 id="question" class="question"></h3>
 
         <div class="answers" id="answers">
-            <input type="radio" name="answer" id="a">
-            <label for="a">&#60;scripting&#62;</label>
+            <input type="radio" name="answer" class="answer" id="a">
+            <label for="a"></label>
             <br>
-            <input type="radio" name="answer" id="b">
-            <label for="b">&#60;js&#62;</label>
+            <input type="radio" name="answer" class="answer" id="b">
+            <label for="b"></label>
             <br>
-            <input type="radio" name="answer" id="c">
-            <label for="c"> &#60;javascript&#62;</label>
+            <input type="radio" name="answer" class="answer" id="c">
+            <label for="c"> </label>
             <br>
-            <input type="radio" name="answer" id="d">
-            <label for="d"> &#60;script&#62;</label>
+            <input type="radio" name="answer" class="answer" id="d">
+            <label for="d"></label>
         </div>
+        <br>
+        <button id="next">Next &#10095;</button>
     </div>
-    <button id="next">Next &#10095;</button>
+    
     
     
 </body>
